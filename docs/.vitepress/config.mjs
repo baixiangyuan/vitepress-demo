@@ -19,41 +19,40 @@ export default defineConfig({
     logo: '/logo.svg',
 
     nav: [
-      { text: '📖 指南', link: '/guide/' },
-      { text: '💻 部署', link: '/deploy/' },
-      { text: '📜 日志', link: '/changelog' },
-      { text: '🔒 隐私', link: '/privacy' }
+      { text: '指南', link: '/guide/' },
+      { text: '部署', link: '/deploy/' },
+      { text: '日志', link: '/changelog' },
+      { text: '隐私', link: '/privacy' }
     ],
 
-    sidebar: {
-      '/guide/': [
-        {
-          text: '项目概述',
-          items: [
-            { text: '项目简介', link: '/guide/' },
-            { text: '功能特点', link: '/guide/features' },
-            { text: '项目结构', link: '/guide/structure' }
-          ]
-        },
-        {
-          text: '使用说明',
-          items: [
-            { text: '主菜单按键速览', link: '/guide/menu' }
-          ]
-        }
-      ],
-      '/deploy/': [
-        {
-          text: '部署指南',
-          items: [
-            { text: '快速开始', link: '/deploy/' },
-            { text: 'Linux 配置', link: '/deploy/linux' },
-            { text: 'Termux 安卓', link: '/deploy/termux' },
-            { text: '高级集群', link: '/deploy/cluster' }
-          ]
-        }
-      ]
-    },
+    sidebar: [
+      {
+        text: '📖 项目指南',
+        items: [
+          { text: '项目简介', link: '/guide/' },
+          { text: '功能特点', link: '/guide/features' },
+          { text: '项目结构', link: '/guide/structure' },
+          { text: '主菜单', link: '/guide/menu' }
+        ]
+      },
+      {
+        text: '💻 部署指南',
+        items: [
+          { text: '快速开始', link: '/deploy/' },
+          { text: 'Linux 配置', link: '/deploy/linux' },
+          { text: 'Termux 安卓', link: '/deploy/termux' },
+          { text: '高级集群', link: '/deploy/cluster' }
+        ]
+      },
+      {
+        text: '📜 更新日志',
+        link: '/changelog'
+      },
+      {
+        text: '🔒 隐私安全',
+        link: '/privacy'
+      }
+    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xiaoyaya191/bilibili_learning_bot' }
