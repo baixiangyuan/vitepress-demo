@@ -5,6 +5,7 @@ export default defineConfig({
   description: '全自动 B 站 AI 学习互动机器人手册',
   base: '/',
   lang: 'zh-CN',
+  appearance: true,
 
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
