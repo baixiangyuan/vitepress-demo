@@ -19,47 +19,53 @@ export default defineConfig({
     logo: '/logo.svg',
 
     nav: [
-      { text: '项目简介', link: '/#项目简介' },
-      { text: '功能特点', link: '/#功能特点' },
-      { text: '项目结构', link: '/#项目结构' },
-      { text: '部署指南', link: '/#部署与快速开始' },
-      { text: '主菜单', link: '/#主菜单按键速览' },
-      { text: '隐私安全', link: '/#隐私安全' }
+      { text: '📖 指南', link: '/guide' },
+      { text: '部署', link: '/deploy' },
+      { text: '主菜单', link: '/menu' },
+      { text: '隐私安全', link: '/privacy' }
     ],
 
-    sidebar: [
-      {
-        text: '项目概述',
-        items: [
-          { text: '项目简介', link: '/#项目简介' },
-          { text: '功能特点', link: '/#功能特点' },
-          { text: '项目结构', link: '/#项目结构' }
-        ]
-      },
-      {
-        text: '部署指南',
-        items: [
-          { text: '部署与快速开始', link: '/#部署与快速开始' },
-          { text: 'Linux 深度配置', link: '/#linux-深度配置手册' },
-          { text: 'Termux 安卓配置', link: '/#android-termux-智能手机挂机配置' },
-          { text: '隔离环境集群', link: '/#高级集群与隔离沙箱调度' }
-        ]
-      },
-      {
-        text: '使用说明',
-        items: [
-          { text: '主菜单按键速览', link: '/#主菜单按键速览' }
-        ]
-      },
-      {
-        text: '其他',
-        items: [
-          { text: '更新日志', link: '/#更新日志' },
-          { text: '隐私安全', link: '/#隐私安全' },
-          { text: '二创说明', link: '/#版权与二创合规说明' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/guide/': [
+        {
+          text: '项目概述',
+          items: [
+            { text: '项目简介', link: '/guide/#项目简介' },
+            { text: '功能特点', link: '/guide/#功能特点' },
+            { text: '项目结构', link: '/guide/#项目结构' }
+          ]
+        }
+      ],
+      '/deploy/': [
+        {
+          text: '部署指南',
+          items: [
+            { text: '快速开始', link: '/deploy/#部署与快速开始' },
+            { text: 'Linux 配置', link: '/deploy/#linux-深度配置手册' },
+            { text: 'Termux 安卓', link: '/deploy/#android-termux-智能手机挂机配置' },
+            { text: '高级集群', link: '/deploy/#高级集群与隔离沙箱调度' }
+          ]
+        }
+      ],
+      '/menu/': [
+        {
+          text: '使用说明',
+          items: [
+            { text: '主菜单按键速览', link: '/menu/' }
+          ]
+        }
+      ],
+      '/privacy/': [
+        {
+          text: '其他',
+          items: [
+            { text: '更新日志', link: '/privacy/#更新日志' },
+            { text: '隐私安全', link: '/privacy/#隐私安全' },
+            { text: '二创说明', link: '/privacy/#版权与二创合规说明' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xiaoyaya191/bilibili_learning_bot' }
