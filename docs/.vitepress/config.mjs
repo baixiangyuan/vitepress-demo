@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'bilibili_learning_bot',
   description: '全自动 B 站 AI 学习互动机器人手册',
-  base: './',
+  base: '/',
   lang: 'zh-CN',
   appearance: true,
 
