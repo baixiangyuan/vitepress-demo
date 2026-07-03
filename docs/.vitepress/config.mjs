@@ -12,7 +12,7 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap' }],
     ['link', { rel: 'stylesheet', href: '/style.css' }],
-    ['link', { rel: 'icon', type: 'image/jpeg', href: 'https://patient-truth-1f26.bxy.workers.dev/logobxy.jpg' }]
+    ['link', { rel: 'icon', type: 'image/jpeg', href: 'https://phototestbxybilibili.bxya.top/logobxy.jpg' }]
   ],
 
   themeConfig: {
