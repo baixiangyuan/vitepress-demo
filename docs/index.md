@@ -1,19 +1,43 @@
-# bilibili_learning_bot · AI 学习互动机器人手册
+---
+layout: home
 
-> 全自动 B 站 AI 学习互动机器人，支持 Linux/Windows/Android/Docker 部署。
+hero:
+  name: bilibili_learning_bot
+  text: AI 学习互动机器人
+  tagline: 全自动 B 站 AI 学习互动机器人，支持 Linux / Windows / Android / Docker 多平台部署
+  image:
+    src: /logo.svg
+    alt: bilibili_learning_bot
+  actions:
+    - theme: brand
+      text: 快速开始
+      link: /#部署与快速开始
+    - theme: alt
+      text: GitHub 仓库
+      link: https://github.com/xiaoyaya191/bilibili_learning_bot
 
+features:
+  - title: 🤖 AI 智能浏览
+    details: AI 驱动推荐流浏览，智能判定视频价值，自动评分、投币、归档
+  - title: 📚 知识库系统
+    details: 三层分类归档 + 向量语义检索，自动提纯高质量内容
+  - title: 💬 评论互动
+    details: 多用户独立上下文深度记忆互动，@bot 智能响应
+  - title: 📡 独立监听引擎
+    details: 极简 CPU 监听模式，只盯私信和评论，节省 80% 资源
+  - title: 📺 HTML PPT 生成
+    details: 将视频知识转化为精美卡片网页，支持 19 种视觉风格
+  - title: 🧬 日记与自我进化
+    details: 全天候行为日志沉淀，AI 自动反思实现人格进化
 ---
 
 ## 项目简介
 
-**bilibili_learning_bot** 是一个基于重构标准规范开发的全自动 B站 AI 学习互动机器人项目。系统总规模从原先的单体巨无霸大幅重构、扩展至 **~33,000 行 Python 核心架构**，并将混乱文件彻底重组为 **80 个高内聚的结构化模块**。
+**bilibili_learning_bot** 是基于重构标准规范开发的全自动 B 站 AI 学习互动机器人。
 
-系统核心大脑由原先 16.8K 行的单体文件重塑为仅 **55 行的 `AgentBrain` 调度中心**，通过挂载 **13 个功能纯净的 Mixin** 扩展类组合驱动，能够实现：
+系统总规模从单体巨无霸重构扩展至 **~33,000 行 Python 核心架构**，并将混乱文件重组为 **80 个高内聚的结构化模块**。
 
-- 自动浏览推荐流
-- 自主沉淀学识
-- 基于消息队列实行实时监听
-- 自动完成行为日志记录与自我进化
+系统核心大脑由原先 16.8K 行的单体文件重塑为仅 **55 行的 `AgentBrain` 调度中心**，通过挂载 **13 个功能纯净的 Mixin** 扩展类组合驱动。
 
 ::: tip 关键特性
 - 核心版本：**v3.0.0 重构版**
@@ -32,13 +56,11 @@
 | 💬 评论互动/私信 | 支持多用户独立上下文深度记忆互动，配合节奏控制与视觉分析 |
 | 📡 独立监听 & @响应 | 新增独立监听（L键），只盯私信评论；在视频下收到 `@bot 总结` 时自动智能回复 |
 | 📺 精美 HTML PPT 转化 | 支持将已学知识生成精美卡片网页，支持 19 种视觉风格（含 Claude 主题） |
-| 🧬 日记与自我进化 | 全天候行为日志沉淀，自动触发自我 AI 反思，实现人格erve Epoch |
+| 🧬 日记与自我进化 | 全天候行为日志沉淀，自动触发自我 AI 反思，实现人格进化 |
 
 ---
 
 ## 项目结构
-
-通过组合模式拆分后的 31 个核心文件（展开为 80 个物理模块）清晰严整：
 
 ```
 ├── main.py               # 🚀 主程序唯一流启动入口
