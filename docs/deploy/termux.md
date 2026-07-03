@@ -5,7 +5,7 @@
 ```bash
 # 1. 克隆仓库
 git clone https://github.com/xiaoyaya191/bilibili_learning_bot.git
-cd biliqili_learning_bot
+cd bilibili_learning_bot
 
 # 2. 安装依赖（优先用轻量换源源）
 pip install -r requirements.txt
