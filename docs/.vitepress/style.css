@@ -279,3 +279,88 @@ a {
 .VPFeature:hover {
   transform: translateY(-3px);
 }
+
+/* ========== 页面转场动画 (安全版) ========== */
+
+/* 内容区域淡入 */
+.VPContent {
+  animation: contentFadeIn 0.4s ease;
+}
+
+@keyframes contentFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 按钮反馈 */
+.VPButton, a.VPButton {
+  transition: transform 0.15s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.VPButton:active {
+  transform: scale(0.97);
+}
+
+/* 链接过渡 */
+a {
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+/* 特性卡片悬浮 */
+.VPFeature {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px);
+}
+
+/* 侧边栏过渡 */
+.VPSidebarItem .items {
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+/* 表格行 hover */
+.VPDoc table tr {
+  transition: background-color 0.2s ease;
+}
+
+/* 代码块复制按钮 */
+.VPDoc .copy {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* 提示框动画 */
+.vp-admonition {
+  animation: admonitionSlideIn 0.4s ease;
+}
+
+@keyframes admonitionSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 搜索框 */
+.DocSearch-Button {
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+/* 明暗模式切换 */
+html.dark, html.dark body, 
+html.dark .VPNav, 
+html.dark .VPSidebar, 
+html.dark .VPContent {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
