@@ -4,21 +4,13 @@ layout: home
 hero:
   name: bilibili_learning_bot
   text: AI 学习互动机器人
-  tagline: |
-    让 AI 接管你的 B站账号 —
-
-    自动刷推荐流，精准理解视频内容；
-    智能互动，自动回复评论、弹幕与私信；
-    沉淀知识库，越用越懂你，自我进化；
-    更可以将任意视频一键转化为可交互的网页讲解动画，风格自由定制。
-
-    你的 B站，从此拥有一个会思考、会成长的 AI 分身。
+  tagline: 全自动 B 站 AI 学习互动机器人，支持 Linux / Windows / Android / Docker 多平台部署
   image:
     src: /logo.svg
     alt: bilibili_learning_bot
   actions:
     - theme: brand
-      text: '📖 快速开始'
+      text: 📖 快速开始
       link: /guide
     - theme: alt
       text: GitHub 仓库
@@ -27,14 +19,14 @@ hero:
 features:
   - title: 🤖 AI 智能浏览
     details: AI 驱动推荐流浏览，智能判定视频价值，自动评分、投币、归档
-  - title: '📚 知识库系统'
+  - title: 📚 知识库系统
     details: 三层分类归档 + 向量语义检索，自动提纯高质量内容
-  - title: '💬 评论互动'
+  - title: 💬 评论互动
     details: 多用户独立上下文深度记忆互动，@bot 智能响应
-  - title: '📡 独立监听引擎'
+  - title: 📡 独立监听引擎
     details: 极简 CPU 监听模式，只盯私信和评论，节省 80% 资源
-  - title: '📺 HTML PPT 生成'
+  - title: 📺 HTML PPT 生成
     details: 将视频知识转化为精美卡片网页，支持 19 种视觉风格
-  - title: '🧬 日记与自我进化'
+  - title: 🧬 日记与自我进化
     details: 全天候行为日志沉淀，AI 自动反思实现人格进化
 ---
