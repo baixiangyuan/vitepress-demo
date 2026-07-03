@@ -210,3 +210,72 @@ html, body {
     font-size: 1.25rem !important;
   }
 }
+
+/* ========== 页面转场动画 ========== */
+
+/* View Transition API 动画 */
+::view-transition-old(root) {
+  animation: fade-out 0.3s ease;
+}
+
+::view-transition-new(root) {
+  animation: fade-in 0.3s ease;
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* 降级方案：简单淡入淡出 */
+.VPContent {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.page-fade-out {
+  opacity: 0 !important;
+}
+
+.page-fade-in {
+  animation: pageFadeIn 0.4s ease;
+}
+
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 按钮点击反馈 */
+.VPButton {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.VPButton:active {
+  transform: scale(0.97);
+}
+
+/* 链接 hover 效果 */
+a {
+  transition: color 0.2s ease;
+}
+
+/* 卡片悬浮效果 */
+.VPFeature {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-3px);
+}
