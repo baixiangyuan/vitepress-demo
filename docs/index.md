@@ -6,7 +6,7 @@ hero:
   text: AI 学习互动机器人
   tagline: 全自动 B 站 AI 学习互动机器人，支持 Linux / Windows / Android / Docker 多平台部署
   image:
-    src: https://phototestbxybilibili.bxya.top/logobxy.jpg
+    src: https://phototestbxybilibili.bxya.top
     alt: bilibili_learning_bot
   actions:
     - theme: brand
