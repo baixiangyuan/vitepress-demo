@@ -12,7 +12,9 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap' }],
     ['link', { rel: 'stylesheet', href: '/style.css' }],
-    ['link', { rel: 'icon', type: 'image/jpeg', href: 'https://phototestbxybilibili.bxya.top' }]
+    ['link', { rel: 'icon', type: 'image/jpeg', href: 'https://phototestbxybilibili.bxya.top' }],
+    ['script', { charset: 'UTF-8', id: 'LA_COLLECT', src: '//sdk.51.la/js-sdk-pro.min.js' }],
+    ['script', {}, `LA.init({id:"3QFckgiZTB513DZG",ck:"3QFckgiZTB513DZG",hashMode:true,screenRecord:true})`]
   ],
 
   themeConfig: {
