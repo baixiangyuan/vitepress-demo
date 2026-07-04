@@ -23,9 +23,10 @@ export default defineConfig({
       { text: '部署', link: '/deploy/' },
       { text: '日志', link: '/changelog' },
       { text: '隐私', link: '/privacy' },
-      { text: '联系我们', link: '/contact' }
+       { text: '联系我们', link: '/contact' },
+       { text: '💰 赞助', link: '/sponsor' }
     ],
-
+    sidebar: [
     sidebar: [
       {
         text: '📖 项目指南',
@@ -56,8 +57,12 @@ export default defineConfig({
       {
         text: '📮 联系我们',
         link: '/contact'
-      }
-    ],
+       },
+       {
+         text: '💰 赞助支持',
+         link: '/sponsor'
+       }
+      ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xiaoyaya191/bilibili_learning_bot' }
