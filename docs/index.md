@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: GitHub 仓库
       link: https://github.com/xiaoyaya191/bilibili_learning_bot
+    - theme: alt
+      text: 💬 联系我们
+      link: https://qun.qq.com/universal-share/share?ac=1&authKey=3DPZvGJMBkmV4LTW%2F5HZubPKU1tJfVrMcBTQ%2B7dBoOwyZBy%2BAde4l3ibVDwiLuWm6&busi_data=eyJncm91cENvZGUiOiIxMDU2OTQxODU2IiwidG9rZW4iOiJOY2Q2YmZZRVZwMHJxVVpMM0laOVJHUFBQK1c5NngxQWpLZld5eWNoOWNVeXY1Q0N2TmVxN1hmWUFtNTJCd01xIiwidWluIjoiMzA3NTMwNDI2NSJ9&data=-H9NmOmgmcDgiJp_-eb6BUmOoQZZpTzfMQ7p8C4ansv88sm_eH1R1qCPKuBe7Xlcbns_fFKXb1u4tRjo_u321A&svctype=4&tempid=h5_group_info
 
 features:
   - title: 🤖 AI 智能浏览
