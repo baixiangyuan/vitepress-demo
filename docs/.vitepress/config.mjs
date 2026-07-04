@@ -22,7 +22,8 @@ export default defineConfig({
       { text: '指南', link: '/guide/' },
       { text: '部署', link: '/deploy/' },
       { text: '日志', link: '/changelog' },
-      { text: '隐私', link: '/privacy' }
+      { text: '隐私', link: '/privacy' },
+      { text: '联系我们', link: '/contact' }
     ],
 
     sidebar: [
@@ -51,6 +52,10 @@ export default defineConfig({
       {
         text: '🔒 隐私安全',
         link: '/privacy'
+      },
+      {
+        text: '📮 联系我们',
+        link: '/contact'
       }
     ],
 
