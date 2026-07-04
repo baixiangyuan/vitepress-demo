@@ -6,7 +6,7 @@
 
 点击加入我们的 QQ 群，与其他用户和开发者交流：
 
-[🐧 加入 QQ 群](https://qun.qq.com/universal-share/share?ac=1&authKey=3DPZvGJMBkmV4LTW%2F5HZubPKU1tJfVrMcBTQ%2B7dBoOwyZBy%2BAde4l3ibVDwiLuWm6&busi_data=eyJncm91cENvZGUiOiIxMDU2OTQxODU2IiwidG9rZW4iOiJOY2Q2YmZZRVZwMHJxVVpMM0laOVJHUFBQK1c5NmlxQWpLZld5eWNoOWNVeXY1Q0N2TmVxN1hmWUFtNTJCd01xIiwidWluIjoiMzA3NTMwNDI2NSJ9&data=-H9NmOmgmcDgiJp_-eb6BUmOoQZZpTzfMQ7p8C4ansv88sm_eH1R1qCPKuBe7Xlcbns_fFKXb1u4tRjo_u321A&svctype=4&tempid=h5_group_info)
+[🐧 加入 QQ 群](https://qun.qq.com/universal-share/share?ac=1&authKey=SEUz6aSYoejNXr0iT5NFOPmWI0G6K%2Btkwqj3hapT5Yh0zFZzujz0aoX1j0yk2%2BuP&busi_data=eyJncm91cENvZGUiOiIxMDU2OTQxODU2IiwidG9rZW4iOiI5a0t4c2dMTzMxMHIxdWhSSEFxNVZRQS9YNmFLZ1VYN2VNVWRGWE5UMTlFT0h3bW5VNGl3UGNMSzJxOUNWdkRzIiwidWluIjoiMzA3NTMwNDI2NSJ9&data=DFYFVLFSryl8sBjRZ2TSYHvXF4mxQImdRXGg-RVY-zLdKUeGyq_C31vIPTxYcoGqIUze6xFauE6qVxY6R9Q25g&svctype=4&tempid=h5_group_info)
 
 ## 📧 其他联系方式
 
