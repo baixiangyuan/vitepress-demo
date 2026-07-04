@@ -13,7 +13,7 @@
 
 <div>
 <h3>支付宝</h3>
-<img src="https://zhifuma.bxya.top/1783176863386.jpg" alt="支付宝收款码" width="250" style="border-radius: 8px;">
+<img src="https://zhifuma.bxya.top/IMG_20260704_225547.jpg" alt="支付宝收款码" width="250" style="border-radius: 8px;">
 </div>
 
 </div>
