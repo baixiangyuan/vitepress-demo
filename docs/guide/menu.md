@@ -1,5 +1,21 @@
 # 主菜单按键速览
 
+## 🚀 快速启动
+
+```bash
+# 交互式菜单
+python3 new_agent.py
+
+# Web 管理面板
+python3 web_panel.py
+# 访问 http://localhost:7860
+
+# Termux 一键启动
+bash start.sh
+```
+
+---
+
 | 按键 | 指令 | 说明 |
 |------|------|------|
 | `1` | 🚀 启动机器人 | 执行全自动的刷视频和互动循环 |
