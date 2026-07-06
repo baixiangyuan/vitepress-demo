@@ -7,8 +7,8 @@
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
 
 <div>
-<h3>微信支付</h3>
-<img src="https://zhifuma.bxya.top/Image_1783338747646_634.jpg" alt="微信支付" width="250" style="border-radius: 8px;">
+<h3>开发者微信支付</h3>
+<img src="https://zhifuma.bxya.top/Image_1783338747646_634.jpg" alt="开发者微信支付" width="250" style="border-radius: 8px;">
 </div>
 
 <div>
