@@ -12,7 +12,7 @@
 </div>
 
 <div>
-<h3>捐献者支付宝</h3>
+<h3>捐献者支付宝支付</h3>
 <img src="https://zhifuma.bxya.top/IMG_20260704_225547.jpg" alt="捐献者支付宝" width="250" style="border-radius: 8px;">
 </div>
 
