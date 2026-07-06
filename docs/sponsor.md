@@ -12,8 +12,8 @@
 </div>
 
 <div>
-<h3>时泄的赞助</h3>
-<img src="https://zhifuma.bxya.top/Image_1783345547233_209.png" alt="时泄的赞助" width="250" style="border-radius: 8px;">
+<h3>时泄的赞助码</h3>
+<img src="https://zhifuma.bxya.top/Image_1783345547233_209.png" alt="时泄的赞助码" width="250" style="border-radius: 8px;">
 </div>
 
 <div>
