@@ -2,9 +2,21 @@
 
 感谢你对 bilibili_learning_bot 项目的支持！你的赞助将帮助我们持续开发和维护这个项目。
 
-## 💳 微信支付
+## 💳 支付方式
 
-<img src="https://zhifuma.bxya.top/Image_1783338747646_634.jpg" alt="微信支付" width="500" style="border-radius: 8px; display: block; margin: 0 auto;">
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+
+<div>
+<h3>微信支付</h3>
+<img src="https://zhifuma.bxya.top/Image_1783338747646_634.jpg" alt="微信支付" width="250" style="border-radius: 8px;">
+</div>
+
+<div>
+<h3>捐献者支付宝</h3>
+<img src="https://zhifuma.bxya.top/IMG_20260704_225547.jpg" alt="捐献者支付宝" width="250" style="border-radius: 8px;">
+</div>
+
+</div>
 
 ## ❤️ 赞助说明
 
