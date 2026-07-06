@@ -19,7 +19,7 @@
 <div>
 <h3>鸭鸭的赞助码</h3>
 <img src="https://zhifuma.bxya.top/Image_1783345526218_967.jpg" alt="鸭鸭的赞助码" width="250" style="border-radius: 8px;">
-<p><strong>代码主要负责人 / 项目提出者 / 创建者：鸭鸭</strong></p>
+<p><small><em>代码主要负责人 / 项目提出者 / 创建者：鸭鸭</em></small></p>
 </div>
 
 </div>
