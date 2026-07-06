@@ -2,18 +2,23 @@
 
 感谢你对 bilibili_learning_bot 项目的支持！你的赞助将帮助我们持续开发和维护这个项目。
 
-## 💳 支付方式
+## 💳 赞助方式
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
 
 <div>
-<h3>开发者微信支付</h3>
-<img src="https://zhifuma.bxya.top/Image_1783338747646_634.jpg" alt="开发者微信支付" width="250" style="border-radius: 8px;">
+<h3>bxy 赞助码</h3>
+<img src="https://zhifuma.bxya.top/mm_reward_qrcode_1783345591858.png" alt="bxy 赞助码" width="250" style="border-radius: 8px;">
 </div>
 
 <div>
-<h3>不是开发者支付宝</h3>
-<img src="https://zhifuma.bxya.top/IMG_20260704_225547.jpg" alt="捐献者支付宝" width="250" style="border-radius: 8px;">
+<h3>时泄的赞助</h3>
+<img src="https://zhifuma.bxya.top/Image_1783345547233_209.png" alt="时泄的赞助" width="250" style="border-radius: 8px;">
+</div>
+
+<div>
+<h3>鸭鸭的赞助码</h3>
+<img src="https://zhifuma.bxya.top/Image_1783345526218_967.jpg" alt="鸭鸭的赞助码" width="250" style="border-radius: 8px;">
 </div>
 
 </div>
@@ -22,7 +27,8 @@
 
 你的每一份支持都将用于：
 
-- 🔧 项目持续开发与维护
+- 🔧 项目持续开发与
+维护
 - 📚 文档完善
 - 🚀 新功能研发
 
