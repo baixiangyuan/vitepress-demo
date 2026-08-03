@@ -43,6 +43,7 @@ export default defineConfig({
         text: '💻 部署指南',
         items: [
           { text: '快速开始', link: '/deploy/' },
+          { text: 'Windows 部署', link: '/deploy/windows' },       // ← 新增
           { text: 'Linux 配置', link: '/deploy/linux' },
           { text: 'Termux 安卓', link: '/deploy/termux' },
           { text: '高级集群', link: '/deploy/cluster' }
