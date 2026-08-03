@@ -31,3 +31,5 @@ cp config.example.json Data/config.json
 | 后台监听 | `python main.py --monitor` | 📡 纯监听模式（CPU最低） |
 | Web 面板 | `python web_panel.py` | 🌐 Flask 浏览器可视化管理 |
 | Docker | `docker-compose up -d` | 🐳 一键容器化部署 |
+
+---
