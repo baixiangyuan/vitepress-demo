@@ -1,9 +1,3 @@
-明白了！EXE 版本**有 Web 面板**，启动后会自动在浏览器打开 `http://localhost:7860`，所以部署指南里应该说明这一点。
-
----
-
-## 📄 修正后的 `docs/deploy/windows.md`
-
 # Windows 部署指南
 
 本指南介绍如何在 Windows 系统上部署和运行 BiliLearn 项目。
@@ -179,12 +173,3 @@ pip install -r requirements.txt --upgrade
 python web_panel.py
 ```
 
----
-
-## 相关文档
-
-- [Linux 部署指南](./linux.md)
-- [Termux (Android) 部署指南](./termux.md)
-- [项目主页](https://github.com/xiaoyaya191/bilibili_learning_bot)
-- [问题反馈](https://github.com/xiaoyaya191/bilibili_learning_bot/issues)
-```
