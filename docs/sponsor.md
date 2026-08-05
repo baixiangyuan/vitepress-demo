@@ -17,11 +17,11 @@
 </div>
 
 <div>
-<h3>鸭鸭的赞助码</h3>
-<img src="https://zhifuma.bxya.app/Image_1783345526218_967.jpg" alt="鸭鸭的赞助码" width="250" style="border-radius: 8px;">
+<h3>鸭鸭的微信号</h3>
+<p>xiaoyaya191</p>
 <p><small><em>代码主要负责人 / 项目提出者 / 创建者：鸭鸭</em></small></p>
 </div>
-
+<!-- [这里是注释内容，不会在页面上显示](https://zhifuma.bxya.app/Image_1783345526218_967.jpg) -->
 </div>
 
 ## ❤️ 赞助说明
