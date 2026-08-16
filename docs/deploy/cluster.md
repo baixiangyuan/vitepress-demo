@@ -15,7 +15,7 @@ data_dir_b="/bot/data/acc2"; api_key_b="sk-456..."
 | 模式 | 说明 |
 |------|------|
 | `python main.py` | 💻 CLI 交互菜单，按菜单启动 24h 全自动主动刷视频 |
-| `python web_panel.py` | 🕸️ Web 可视化管理面板（默认 http://localhost:18083），并托管监听子进程 |
+| `python web_panel.py` | 🕸️ Web 可视化管理面板（默认 `http://localhost:18083`），并托管监听子进程 |
 | Web 面板「实时监听」/ CLI 菜单 | 📡 被动监听模式（只盯私信+评论，节省约 80% 消耗） |
 | `--advanced` | 集群调度接口 |
 

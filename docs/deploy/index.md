@@ -32,7 +32,7 @@ cp config.example.json Data/config.json
 | 启动方式 | 命令 | 说明 |
 |----------|------|------|
 | CLI 交互菜单 | `python main.py` | 💻 终端菜单交互模式，按菜单选项启动 / 登录 / 监听 |
-| Web 管理面板 | `python web_panel.py` | 🌐 Flask 浏览器可视化管理，默认 http://localhost:18083 |
+| Web 管理面板 | `python web_panel.py` | 🌐 Flask 浏览器可视化管理，默认 `http://localhost:18083` |
 | Windows EXE | 运行 `BiliLearn Web.exe` | 🖥️ 自动开浏览器 + 托盘图标，免 Python 环境 |
 | Docker | `docker-compose up -d` | 🐳 一键容器化部署 |
 | Termux | `bash start.sh` | 📱 Android 手机一键启动脚本（含依赖自检菜单） |

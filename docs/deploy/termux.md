@@ -17,7 +17,7 @@ bash start.sh
 启动脚本 `start.sh` 会给出菜单，可选：
 
 - **机器人菜单**（`main.py` 交互式）：按菜单启动 / 登录 / 监听
-- **Web 管理面板**（`web_panel.py`）：默认 http://localhost:18083
+- **Web 管理面板**（`web_panel.py`）：默认 `http://localhost:18083`
 - **后台运行 Web 面板**：`nohup` 常驻，日志写入 `bot_web.log`，PID 写入 `bot.pid`
 - **安装 / 更新全部依赖**
 
