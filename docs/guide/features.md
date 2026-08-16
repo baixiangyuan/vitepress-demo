@@ -1,6 +1,6 @@
 # 功能特点
 
-> 以下特性基于 **v3.1.2** 整理，与上游仓库 [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot) 保持一致。
+> 以下特性基于 **v3.1.3** 整理，与上游仓库 [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot) 保持一致。
 
 | 功能 | 说明 |
 |------|------|

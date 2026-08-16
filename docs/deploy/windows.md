@@ -10,7 +10,7 @@
 
 前往 [Releases 页面](https://github.com/xiaoyaya191/bilibili_learning_bot/releases) 下载最新版本的 Windows EXE 压缩包。
 
-当前最新版本为 `BiliLearn-Web-3.1.2-Windows-x64-20260801_162412.zip`。
+当前最新版本为 `bilibili_learning_bot-3.1.3-EXE.zip`。
 
 ### 2. 解压文件
 
@@ -18,7 +18,7 @@
 
 ### 3. 运行程序
 
-双击解压后的 `BiliLearn-Web-3.1.2-Windows-x64.exe` 即可启动。
+双击解压后的 `BiliLearn Web` 文件夹中的 `BiliLearn Web.exe` 即可启动。
 
 程序启动后：
 - 会自动打开命令行窗口显示日志
@@ -54,7 +54,7 @@ Web 面板提供完整的可视化操作界面，主要功能包括：
 3. 右键编辑该文件，输入以下内容：
    ```batch
    @echo off
-   start /d "D:\BiliLearn" BiliLearn-Web-3.1.2-Windows-x64.exe
+   start /d "D:\BiliLearn\BiliLearn Web" "BiliLearn Web.exe"
    ```
    > 请将 `D:\BiliLearn` 替换为你的实际解压路径。
 4. 保存文件，下次开机时会自动启动
