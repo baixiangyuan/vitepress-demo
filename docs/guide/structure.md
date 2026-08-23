@@ -1,6 +1,6 @@
 # 项目结构
 
-> 基于 **v3.1.3** 整理，与上游仓库 [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot) 保持一致。
+> 基于 **v3.1.4** 整理，与上游仓库 [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot) 保持一致。
 
 ```
 ├── main.py               # 🚀 主入口（CLI 交互菜单 + 自动化启动）
@@ -9,6 +9,8 @@
 ├── web_panel.html        # Web 面板模板（Claude 风格，亮暗双模式）
 ├── BiliLearn.spec        # 📦 PyInstaller 打包配置
 ├── build_windows_exe.bat # 📦 一键打包脚本（Windows）
+├── install.sh            # 📱 手机端(Termux)单文件安装器（镜像拉取 + 全局命令）
+├── deploy_termux.sh      # 📱 Termux 交互式部署脚本
 │
 ├── api/                  # 🔌 B站 API 层（客户端 / 登录 / 字幕 / 节流）
 ├── brain/                # 🧠 核心大脑（Mixin 组合：主循环 / 视频理解 / AI 调用 / 会话）
@@ -22,7 +24,7 @@
 ├── xingye_bot/           # 🤖 扩展组件（LLM / 状态 / 记忆 / 进化 / ASR / 网格帧）
 ├── utils/                # 🛠 通用工具（托盘 / 启动器 / 存储 / 锁）
 ├── templates/claude/     # 🎨 Claude 设计系统模板 + 7 个参考页
-├── tests/                # 🧪 181 个 pytest 测试
+├── tests/                # 🧪 385 个 pytest 测试
 ├── app-icons/            # 应用图标
 └── dev_refs/             # 📖 二次开发参考文档
 ```

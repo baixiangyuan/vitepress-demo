@@ -10,7 +10,7 @@ This is the simplest deployment — no Python environment needed, download and r
 
 Go to the [Releases page](https://github.com/xiaoyaya191/bilibili_learning_bot/releases) and download the latest Windows EXE archive.
 
-The current latest version is `bilibili_learning_bot-3.1.3-EXE.zip`.
+The current latest version is `bilibili_learning_bot-3.1.4-EXE.zip`.
 
 ### 2. Extract the Files
 

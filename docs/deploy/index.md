@@ -35,7 +35,7 @@ cp config.example.json Data/config.json
 | Web 管理面板 | `python web_panel.py` | 🌐 Flask 浏览器可视化管理，默认 `http://localhost:18083` |
 | Windows EXE | 运行 `BiliLearn Web.exe` | 🖥️ 自动开浏览器 + 托盘图标，免 Python 环境 |
 | Docker | `docker-compose up -d` | 🐳 一键容器化部署 |
-| Termux | `bash start.sh` | 📱 Android 手机一键启动脚本（含依赖自检菜单） |
+| Termux | `bililearn` | 📱 Android 手机安装后全局命令启动（先 `bash install.sh` 安装） |
 
 ::: tip 关于 Web 面板端口
 默认端口为 **18083**，被占用时会自动顺延。如需固定端口：

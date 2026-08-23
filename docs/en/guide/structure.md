@@ -1,6 +1,6 @@
 # Project Structure
 
-> Based on **v3.1.3**, kept in sync with the upstream repository [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot).
+> Based on **v3.1.4**, kept in sync with the upstream repository [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot).
 
 ```
 ├── main.py               # 🚀 Main entry (CLI interactive menu + automated startup)
@@ -9,6 +9,8 @@
 ├── web_panel.html         # Web panel template (Claude style, light/dark dual mode)
 ├── BiliLearn.spec         # 📦 PyInstaller packaging config
 ├── build_windows_exe.bat  # 📦 One-click packaging script (Windows)
+├── install.sh            # 📱 Termux single-file installer (mirror fetch + global command)
+├── deploy_termux.sh      # 📱 Interactive Termux deployment script
 │
 ├── api/                   # 🔌 Bilibili API layer (client / login / subtitles / throttling)
 ├── brain/                 # 🧠 Core brain (Mixin composition: main loop / video understanding / AI calls / sessions)
@@ -22,7 +24,7 @@
 ├── xingye_bot/            # 🤖 Extension modules (LLM / state / memory / evolution / ASR / grid frames)
 ├── utils/                 # 🛠 Common utilities (tray / launcher / storage / locks)
 ├── templates/claude/      # 🎨 Claude design-system templates + 7 reference pages
-├── tests/                 # 🧪 181 pytest tests
+├── tests/                 # 🧪 385 pytest tests
 ├── app-icons/             # App icons
 └── dev_refs/              # 📖 Secondary-development reference docs
 ```

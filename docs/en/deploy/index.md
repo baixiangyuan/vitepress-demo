@@ -35,7 +35,7 @@ The project offers **5 launch methods**; choose as needed:
 | Web panel | `python web_panel.py` | 🌐 Flask browser-based visual management, default `http://localhost:18083` |
 | Windows EXE | Run `BiliLearn Web.exe` | 🖥️ Auto-opens browser + tray icon, no Python required |
 | Docker | `docker-compose up -d` | 🐳 One-click containerized deployment |
-| Termux | `bash start.sh` | 📱 One-click launch script for Android (with dependency self-check menu) |
+| Termux | `bililearn` | 📱 Global command after install on Android (install first via `bash install.sh`) |
 
 ::: tip About the Web panel port
 The default port is **18083**, auto-incrementing if occupied. To fix the port:

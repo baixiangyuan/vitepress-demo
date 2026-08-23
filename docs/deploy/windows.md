@@ -10,7 +10,7 @@
 
 前往 [Releases 页面](https://github.com/xiaoyaya191/bilibili_learning_bot/releases) 下载最新版本的 Windows EXE 压缩包。
 
-当前最新版本为 `bilibili_learning_bot-3.1.3-EXE.zip`。
+当前最新版本为 `bilibili_learning_bot-3.1.4-EXE.zip`。
 
 ### 2. 解压文件
 

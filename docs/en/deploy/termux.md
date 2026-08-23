@@ -1,20 +1,30 @@
 # Android Termux Smartphone 24/7 Configuration
 
-Core configuration for long-term 24/7 operation on an Android phone using Termux:
+Core configuration for long-term 24/7 operation on an Android phone using Termux (based on **v3.1.4**):
+
+## One-click Install (Recommended)
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/xiaoyaya191/bilibili_learning_bot.git
-cd bilibili_learning_bot
-
-# 2. Install dependencies (prefer a lightweight mirror)
-pip install -r requirements.txt
-
-# 3. One-click launch (script includes dependency self-check and menu)
-bash start.sh
+pkg install curl -y
+curl -O https://raw.githubusercontent.com/xiaoyaya191/bilibili_learning_bot/main/install.sh
+bash install.sh
 ```
 
-The launch script `start.sh` shows a menu with options:
+Install flow: confirm install → choose path (default `~/bililearn`) → type "我同意" (I agree) on the disclaimer → mirror fetch of source → install dependencies → register global command. **It auto-benchmarks GitHub mirrors to fetch the source**, so no manual proxy setup is needed.
+
+## Launch
+
+After install, launch directly (any of the three, identical effect):
+
+```bash
+bililearn                # or
+abiligent                # or
+bilibili_learning_bot
+```
+
+> You can also use `deploy_termux.sh` (interactive deployment) or `bash install_termux.sh` inside the source directory.
+
+A menu will appear with options:
 
 - **Bot menu** (`main.py` interactive): start / login / listen via the menu
 - **Web panel** (`web_panel.py`): default `http://localhost:18083`

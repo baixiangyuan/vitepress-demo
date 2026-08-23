@@ -10,10 +10,10 @@ And turn any video into an interactive web explainer animation with freely custo
 Your Bilibili account now has a thinking, growing AI avatar.
 
 ::: tip Key Specs
-- Core version: **v3.1.3 (latest)**
+- Core version: **v3.1.4 (latest)**
 - Code size: **113 Python files / ~54k lines**
 - Service modules: **32 services** (deep dive / quiz / mind map / Word / interest engine / RAG…)
-- Test baseline: **319 passed** (181 pytest)
+- Test baseline: **385 pytest all passing**
 :::
 
 ---
@@ -45,6 +45,14 @@ Your Bilibili account now has a thinking, growing AI avatar.
 | 🌓 Web Panel | Claude-design style, light/dark dual themes: dashboard / bot control / config / knowledge management |
 | 🐳 Docker Deployment | Docker / docker-compose one-click deployment supported |
 | 📱 Termux Support | One-click launch script for Android phones |
+| ❤️ Favorability System | Tracks per-user interaction favorability; AI auto scores up/down; visual management in panel (off by default) |
+| 🧠 AI Skill Extraction | Auto-distills reusable methodologies into skill cards on archive; retrieved and injected when the Agent handles DMs |
+| 💬 AI Segmented Replies | Replies "let me check" first, then returns with a summary after watching the video — human-like pacing |
+| 🧮 Model Availability Test | Multi-threaded model testing (custom concurrency/timeout/prompt); one-click classify available/offline/timeout |
+| 🎯 Learning Goals | AI auto-sets learning goals + manual CRUD + progress tracking |
+| 📧 Email Password Recovery | Guided email setup on first use; password recovery via email code; backup email supported |
+| ⚙️ Port/Tray Customization | Custom panel port; optionally hide the system tray icon |
+| 🆕 Newbie Tutorial | Auto-expands in the system dashboard on first entry; 7 steps with real completion-status detection |
 
 ---
 
@@ -71,7 +79,7 @@ Your Bilibili account now has a thinking, growing AI avatar.
 ├── xingye_bot/            # 🤖 Extension modules (LLM / state / memory / evolution / ASR / grid frames)
 ├── utils/                 # 🛠 Common utilities (tray / launcher / storage / locks)
 ├── templates/claude/      # 🎨 Claude design-system templates + 7 reference pages
-├── tests/                 # 🧪 181 pytest tests
+├── tests/                 # 🧪 385 pytest tests
 ├── app-icons/             # App icons
 └── dev_refs/              # 📖 Secondary-development reference docs
 ```

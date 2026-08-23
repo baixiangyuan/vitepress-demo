@@ -1,6 +1,6 @@
 # Features
 
-> The features below are based on **v3.1.3** and are kept in sync with the upstream repository [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot).
+> The features below are based on **v3.1.4** and are kept in sync with the upstream repository [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot).
 
 | Feature | Description |
 |---------|-------------|
@@ -27,3 +27,11 @@
 | 🌓 Web Panel | Claude-design style, light/dark dual themes: dashboard / bot control / config / knowledge management |
 | 🐳 Docker Deployment | Docker / docker-compose one-click deployment supported |
 | 📱 Termux Support | One-click launch script for Android phones |
+| ❤️ Favorability System | Tracks per-user interaction favorability; AI auto scores up/down; visual management in panel (off by default) |
+| 🧠 AI Skill Extraction | Auto-distills reusable methodologies into skill cards on archive; retrieved and injected when the Agent handles DMs |
+| 💬 AI Segmented Replies | Replies "let me check" first, then returns with a summary after watching the video — human-like pacing |
+| 🧮 Model Availability Test | Multi-threaded model testing (custom concurrency/timeout/prompt); one-click classify available/offline/timeout |
+| 🎯 Learning Goals | AI auto-sets learning goals + manual CRUD + progress tracking |
+| 📧 Email Password Recovery | Guided email setup on first use; password recovery via email code; backup email supported |
+| ⚙️ Port/Tray Customization | Custom panel port; optionally hide the system tray icon |
+| 🆕 Newbie Tutorial | Auto-expands in the system dashboard on first entry; 7 steps with real completion-status detection |
