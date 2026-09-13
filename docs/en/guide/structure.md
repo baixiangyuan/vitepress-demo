@@ -1,6 +1,6 @@
 # Project Structure
 
-> Based on **v3.1.4**, kept in sync with the upstream repository [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot).
+> Based on **v3.1.5**, kept in sync with the upstream repository [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot).
 
 ```
 ├── main.py               # 🚀 Main entry (CLI interactive menu + automated startup)

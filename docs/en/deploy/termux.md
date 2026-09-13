@@ -1,6 +1,6 @@
 # Android Termux Smartphone 24/7 Configuration
 
-Core configuration for long-term 24/7 operation on an Android phone using Termux (based on **v3.1.4**):
+Core configuration for long-term 24/7 operation on an Android phone using Termux (based on **v3.1.5**):
 
 ## One-click Install (Recommended)
 
@@ -11,6 +11,10 @@ bash install.sh
 ```
 
 Install flow: confirm install → choose path (default `~/bililearn`) → type "我同意" (I agree) on the disclaimer → mirror fetch of source → install dependencies → register global command. **It auto-benchmarks GitHub mirrors to fetch the source**, so no manual proxy setup is needed.
+
+::: tip
+**v3.1.5 improvement:** Starting from **v3.1.5**, `psutil` is now an **optional dependency**; the Termux / Android installer skips it automatically, so installs no longer fail because `psutil` does not support the Android platform. The one-click mobile install is now more reliable.
+:::
 
 ## Launch
 

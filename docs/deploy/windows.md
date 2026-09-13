@@ -10,7 +10,11 @@
 
 前往 [Releases 页面](https://github.com/xiaoyaya191/bilibili_learning_bot/releases) 下载最新版本的 Windows EXE 压缩包。
 
-当前最新版本为 `bilibili_learning_bot-3.1.4-EXE.zip`。
+当前最新版本为 `BiliLearn-Web-3.1.5-beta-windows.zip`（Windows 包）。
+
+::: info
+**💡 v3.1.5 新增 Android 版（Beta 测试）：** 同步发布 **Android APK（Beta）**：`BiliLearn-release.apk`（正式版）/ `BiliLearn-debug.apk`（调试版），同样在 [Releases 页面](https://github.com/xiaoyaya191/bilibili_learning_bot/releases) 提供。`psutil` 现改为可选依赖，Android / Termux 安装不再卡在平台不支持。
+:::
 
 ### 2. 解压文件
 

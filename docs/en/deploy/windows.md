@@ -10,7 +10,11 @@ This is the simplest deployment — no Python environment needed, download and r
 
 Go to the [Releases page](https://github.com/xiaoyaya191/bilibili_learning_bot/releases) and download the latest Windows EXE archive.
 
-The current latest version is `bilibili_learning_bot-3.1.4-EXE.zip`.
+The current latest version is `BiliLearn-Web-3.1.5-beta-windows.zip` (Windows package).
+
+::: info
+**💡 v3.1.5 adds Android edition (Beta):** Starting from **v3.1.5**, an **Android APK (Beta)** is also published: `BiliLearn-release.apk` (release) / `BiliLearn-debug.apk` (debug), available on the [Releases page](https://github.com/xiaoyaya191/bilibili_learning_bot/releases). `psutil` is now an optional dependency, so Android / Termux installs no longer get stuck on unsupported platforms.
+:::
 
 ### 2. Extract the Files
 

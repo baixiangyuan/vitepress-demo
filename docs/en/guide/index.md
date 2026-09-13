@@ -10,7 +10,7 @@ And turn any video into an interactive web explainer animation with freely custo
 Your Bilibili account now has a thinking, growing AI avatar.
 
 ::: tip Key Specs
-- Core version: **v3.1.4 (latest)**
+- Core version: **v3.1.5 (latest)**
 - Code size: **113 Python files / ~54k lines**
 - Service modules: **32 services** (deep dive / quiz / mind map / Word / interest engine / RAG…)
 - Test baseline: **385 pytest all passing**

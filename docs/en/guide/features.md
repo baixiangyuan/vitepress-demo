@@ -1,6 +1,6 @@
 # Features
 
-> The features below are based on **v3.1.4** and are kept in sync with the upstream repository [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot).
+> The features below are based on **v3.1.5** and are kept in sync with the upstream repository [xiaoyaya191/bilibili_learning_bot](https://github.com/xiaoyaya191/bilibili_learning_bot).
 
 | Feature | Description |
 |---------|-------------|
