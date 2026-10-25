@@ -10,10 +10,10 @@
 
 前往 [Releases 页面](https://github.com/xiaoyaya191/bilibili_learning_bot/releases) 下载最新版本的 Windows EXE 压缩包。
 
-当前最新版本为 `BiliLearn-Web-3.1.5-beta-windows.zip`（Windows 包）。
+当前最新版本为 `BiliLearn-Web-3.1.6-Windows-x64.zip`（Windows 包）。
 
 ::: info
-**💡 v3.1.5 新增 Android 版（Beta 测试）：** 同步发布 **Android APK（Beta）**：`BiliLearn-release.apk`（正式版）/ `BiliLearn-debug.apk`（调试版），同样在 [Releases 页面](https://github.com/xiaoyaya191/bilibili_learning_bot/releases) 提供。`psutil` 现改为可选依赖，Android / Termux 安装不再卡在平台不支持。
+**💡 v3.1.6 发布内容：** 本次发布 **PC 源码**（`BiliLearn-Web-3.1.6-PC-Source.zip`）与 **Windows 64 位** EXE 包。完整解压后运行 `BiliLearn Web/BiliLearn Web.exe`，必须保留 `_internal` 文件夹，不要单独拎出 EXE。发布为纯净包：不带用户账号、Cookie、API Key、私人知识、运行日志或数据库。APK 和安卓源码后续再发布。
 :::
 
 ### 2. 解压文件
@@ -38,9 +38,12 @@ Web 面板提供完整的可视化操作界面，主要功能包括：
 | 📊 仪表盘 | 查看运行状态和统计数据 |
 | 🤖 机器人控制 | 启动/停止机器人 |
 | 📡 实时监听 | 只盯私信+评论，不刷视频 |
-| ⚙️ 配置编辑 | 在线修改配置文件 |
+| ⚙️ 配置编辑 | 在线修改配置文件（含多 API 接口池、视频直投等） |
 | 🎓 知识辅导 | AI 讲解/问答/生成学习卡片 |
 | 📚 知识库管理 | 查看和管理已学知识 |
+| 👥 账号管理 | 多账号工作空间（最多 10 个） |
+| 📊 Token 仪表盘 | 用量与费用统计 |
+| 🧬 AI 进化 | 画像审计 + 提案审核 + 观察期 |
 
 ### 5. 首次使用
 

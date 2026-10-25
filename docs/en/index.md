@@ -26,7 +26,11 @@ features:
   - title: 📡 Standalone Listener
     details: Minimal-CPU listening mode that only watches DMs and comments, saving 80% resources
   - title: 📺 HTML PPT Generation
-    details: Turn video knowledge into beautiful card web pages, 19 visual styles supported
+    details: Video knowledge as beautiful card web pages with a unified layout, offline reading supported
   - title: 🧬 Diary & Self-Evolution
     details: Around-the-clock behavior logs, AI auto-reflection enabling persona evolution
+  - title: 👥 Multi-Account Workspaces
+    details: Up to 10 independent accounts with isolated ports / config / cookies / knowledge bases
+  - title: 📊 Token Dashboard
+    details: Usage & cost estimates by model/source/date, persisted in SQLite
 ---

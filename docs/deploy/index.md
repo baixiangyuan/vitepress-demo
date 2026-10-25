@@ -47,6 +47,10 @@ cp config.example.json Data/config.json
 「实时监听」（只盯私信 + 评论，不刷视频，CPU / 流量最低）可在 **Web 面板** 的「实时监听」开关或 **CLI 菜单** 中启用，无需单独的 `--monitor` 命令。
 :::
 
+::: tip v3.1.6 数据存储
+v3.1.6 起账号数据以 SQLite（WAL + 原子写入）持久化，并保留 JSON 兼容镜像。多账号工作空间数据位于 `user_data/`（Docker 部署需挂载 `/app/user_data`）。不要手工删除 JSON 镜像；离线备份优先使用面板内「数据与数据库」的 SQLite 快照或同时备份完整账号目录。
+:::
+
 ---
 
 更详细的平台部署指引见左侧菜单：**Windows / Linux / Termux / 集群**。

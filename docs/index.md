@@ -26,7 +26,11 @@ features:
   - title: 📡 独立监听引擎
     details: 极简 CPU 监听模式，只盯私信和评论，节省 80% 资源
   - title: 📺 HTML PPT 生成
-    details: 将视频知识转化为精美卡片网页，支持 19 种视觉风格
+    details: 视频知识转化为精美卡片网页，统一参考布局，支持离线阅读
   - title: 🧬 日记与自我进化
     details: 全天候行为日志沉淀，AI 自动反思实现人格进化
+  - title: 👥 多账号工作空间
+    details: 最多 10 个独立账号，独立端口/配置/Cookie/知识库
+  - title: 📊 Token 仪表盘
+    details: 按模型/来源/日期统计用量与费用估算，SQLite 持久化
 ---
